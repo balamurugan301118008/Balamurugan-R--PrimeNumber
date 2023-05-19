@@ -9,9 +9,9 @@ function primeNumber($num)
         }
     }
     if ($check == 0) {
-        echo "prime";
+        echo "$num.is a Prime Number";
     } else {
-        echo "not prime";
+        echo "$num.is not a  Prime Number";
     }
 }
 echo primeNumber(11);
